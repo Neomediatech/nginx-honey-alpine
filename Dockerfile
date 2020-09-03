@@ -1,5 +1,7 @@
 FROM nginx:alpine
 
+ENV BUILD_DATE=2020-09-03
+
 LABEL maintainer="docker-dario@neomediatech.it"
 
 EXPOSE 80/tcp 443/tcp
